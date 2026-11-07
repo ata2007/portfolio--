@@ -33,7 +33,9 @@ const Hero = () => {
             <FadeIn delay={0.4}>
               <div className="flex flex-col gap-4 sm:flex-row">
                 <a
-                  href="#contact"
+                  href="https://wa.me/message/PE6PLCTFJZTVP1"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-sage px-8 py-3 text-sm font-bold text-olive transition-colors hover:bg-white"
                 >
                   Let&apos;s Talk <IconArrowRight className="ml-2 h-4 w-4" />

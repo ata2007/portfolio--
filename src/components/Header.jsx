@@ -19,7 +19,9 @@ const Header = () => {
             02 / WORK
           </a>
           <a
-            href="#contact"
+            href="https://wa.me/message/PE6PLCTFJZTVP1"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-sage px-5 py-2 font-bold text-olive transition-colors hover:bg-white"
           >
             LET&apos;S TALK
@@ -49,7 +51,13 @@ const Header = () => {
           <a href="#work" onClick={() => setIsOpen(false)} className="text-white hover:text-sage">
             02 / WORK
           </a>
-          <a href="#contact" onClick={() => setIsOpen(false)} className="text-sage">
+          <a
+            href="https://wa.me/message/PE6PLCTFJZTVP1"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsOpen(false)}
+            className="text-sage"
+          >
             LET&apos;S TALK
           </a>
         </div>
