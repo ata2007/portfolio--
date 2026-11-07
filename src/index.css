@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-olive font-sans text-white antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #051a08;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #acc8a2;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+
+  ::selection {
+    background: #acc8a2;
+    color: #051a08;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
